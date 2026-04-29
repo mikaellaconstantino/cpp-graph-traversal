@@ -26,6 +26,18 @@ Finds the minimum cost to connect all areas using
 Kruskal's algorithm with mandatory edge constraints
 and Union-Find with union by rank optimization.
 
+### 5. Airline Network Optimization
+Maximizes airline profit by selecting highest-weight
+flight routes between airport cities using a Maximum
+Spanning Tree approach, then calculates the nearest
+airport distance for non-airport cities using
+Dijkstra's algorithm.
+
+#### Key Concepts
+- Maximum Spanning Tree via Union-Find
+- Dijkstra for nearest airport distances
+- Combined graph optimization problem
+
 ## Technologies Used
 - **Language:** C++
 - **Libraries:** vector, queue, iostream, climits
