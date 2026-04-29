@@ -21,6 +21,11 @@ Counts the number of disconnected friend groups
 (cliques) in a social network using the Union-Find 
 data structure with path compression.
 
+### 4. Kruskal's MST — Minimum Cost Area Connection
+Finds the minimum cost to connect all areas using
+Kruskal's algorithm with mandatory edge constraints
+and Union-Find with union by rank optimization.
+
 ## Technologies Used
 - **Language:** C++
 - **Libraries:** vector, queue, iostream, climits
