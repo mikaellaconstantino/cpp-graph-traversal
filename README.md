@@ -7,8 +7,8 @@ University of the Philippines Diliman.
 ## Algorithms Included
 
 ### 1. BFS Treasure Hunt
-Finds the shortest safe path from a start node to a 
-treasure node while avoiding trap nodes using 
+Finds the shortest safe path from a start node to a
+treasure node while avoiding trap nodes using
 Breadth-First Search.
 
 ### 2. Dijkstra Shortest Path
@@ -17,8 +17,8 @@ in a directed graph using Dijkstra's algorithm with
 a priority queue.
 
 ### 3. Union-Find — Friend Cliques
-Counts the number of disconnected friend groups 
-(cliques) in a social network using the Union-Find 
+Counts the number of disconnected friend groups
+(cliques) in a social network using the Union-Find
 data structure with path compression.
 
 ### 4. Kruskal's MST — Minimum Cost Area Connection
@@ -33,16 +33,22 @@ Spanning Tree approach, then calculates the nearest
 airport distance for non-airport cities using
 Dijkstra's algorithm.
 
-#### Key Concepts
-- Maximum Spanning Tree via Union-Find
-- Dijkstra for nearest airport distances
-- Combined graph optimization problem
+## Files
+
+    CONSTANTINO_BFS-DFS_LAB_07.cpp  — BFS Treasure Hunt
+    dijkstra.cpp                     — Dijkstra Shortest Path
+    union_find.cpp                   — Union-Find Friend Cliques
+    kruskal_mst.cpp                  — Kruskal MST
+    airline_network.cpp              — Airline Network Optimization
 
 ## Technologies Used
 - **Language:** C++
-- **Libraries:** vector, queue, iostream, climits
+- **Libraries:** vector, queue, iostream, climits,
+  algorithm, tuple, cstring
 - **Concepts:** Graph Theory, BFS, Dijkstra,
-  Adjacency Lists, Priority Queue, Pathfinding
+  Kruskal, Union-Find, Maximum Spanning Tree,
+  Adjacency Lists, Priority Queue, Path Compression,
+  Union by Rank, Network Optimization
 
 ## Course
 Data Structures and Algorithms
