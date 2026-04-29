@@ -16,6 +16,11 @@ Finds the shortest weighted path between two nodes
 in a directed graph using Dijkstra's algorithm with
 a priority queue.
 
+### 3. Union-Find — Friend Cliques
+Counts the number of disconnected friend groups 
+(cliques) in a social network using the Union-Find 
+data structure with path compression.
+
 ## Technologies Used
 - **Language:** C++
 - **Libraries:** vector, queue, iostream, climits
